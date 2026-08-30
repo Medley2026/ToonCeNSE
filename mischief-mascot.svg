@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<rect width="400" height="400" rx="40" fill="#ff4d8d"/>
+<g stroke="#101014" stroke-width="12" stroke-linejoin="round">
+<circle fill="#ffd8b5" cx="200" cy="175" r="83"/>
+<path fill="#101014" d="M120 150q8-105 80-105t80 105l-33-28-25 20-30-27-32 27z"/>
+<circle fill="#101014" cx="168" cy="177" r="10"/><circle fill="#101014" cx="232" cy="177" r="10"/>
+<path fill="none" d="M168 220q32 24 64 0"/>
+<path fill="#18c9f5" d="M105 270q95-54 190 0l35 92H70z"/>
+<path fill="#ffe52b" d="M102 267l-53-45 74 20zM298 267l53-45-74 20z"/>
+</g><text x="200" y="345" text-anchor="middle" font-family="Arial" font-weight="900" font-size="27">MISCHIEF MODE</text>
+</svg>

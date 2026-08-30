@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<rect width="400" height="400" rx="40" fill="#18c9f5"/>
+<g stroke="#101014" stroke-width="12" stroke-linejoin="round">
+<path fill="#ffe52b" d="M117 315c-38-38-40-99-12-145 20-32 54-50 91-50 50 0 88 34 96 81 7 43-11 82-48 111-31 24-94 39-127 3z"/>
+<path fill="#ffe52b" d="M105 133L49 91l54 10 14-60 33 64"/>
+<path fill="#ffe52b" d="M293 131l58-42-55 11-14-59-31 65"/>
+<circle fill="#101014" cx="143" cy="202" r="16"/><circle fill="#101014" cx="258" cy="202" r="16"/>
+<circle fill="#ff4b3e" cx="112" cy="244" r="19"/><circle fill="#ff4b3e" cx="289" cy="244" r="19"/>
+<path fill="#fff" d="M170 248q30 27 60 0-8 51-30 51t-30-51z"/>
+<path fill="none" d="M201 274v24"/>
+<path fill="#ffe52b" d="M103 278L48 323l65-15"/><path fill="#ffe52b" d="M297 278l55 45-65-15"/>
+</g><path d="M38 180l45-22-21 39 44-8" fill="none" stroke="#101014" stroke-width="10"/>
+<text x="200" y="365" text-anchor="middle" font-family="Arial" font-weight="900" font-size="28">ZAP-ZAP!</text>
+</svg>
