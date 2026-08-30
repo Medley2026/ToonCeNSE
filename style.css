@@ -33,7 +33,7 @@ img{max-width:100%;display:block}
 .lead{font-size:1.08rem;line-height:1.75;max-width:760px}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;margin-top:22px;padding:13px 18px;border:4px solid var(--ink);border-radius:14px;background:var(--yellow);font-weight:900;text-transform:uppercase;box-shadow:var(--shadow);transition:.2s;cursor:pointer}
 .btn:hover{transform:translate(-3px,-3px);box-shadow:10px 11px 0 var(--ink)}
-.btn.pink{background:var(--pink);color:#000}.btn.cyan{background:var(--cyan)}.btn.black{background:#fff}
+.btn.pink{background:var(--pink);color:#fff}.btn.cyan{background:var(--cyan)}.btn.white{background:#fff}
 .btn.ghost{background:#fff}
 .hero-poster{position:relative;max-width:530px;justify-self:end;transform:rotate(2deg)}
 .hero-poster img{width:100%;border:6px solid var(--ink);border-radius:22px;box-shadow:12px 14px 0 var(--ink);background:#fff}
@@ -135,4 +135,12 @@ footer{padding:28px 0;background:var(--ink);color:#fff;text-align:center}.footer
 .doodle{position:absolute;font:900 3rem 'Bangers';z-index:1;transform:rotate(-12deg)}.doodle.one{left:3%;top:12%;color:var(--pink)}.doodle.two{right:3%;bottom:8%;color:var(--purple)}
 .toon-marquee{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}.pill{background:#fff;border:3px solid var(--ink);padding:8px 12px;border-radius:999px;font-weight:900;box-shadow:3px 3px 0 var(--ink)}
 @media(max-width:1000px){.hero-grid,.toon-banner,.contribute-grid{grid-template-columns:1fr}.hero-poster{justify-self:center;max-width:650px}.schedule-grid,.sports-grid,.matches{grid-template-columns:repeat(2,1fr)}.contact-grid{grid-template-columns:repeat(2,1fr)}.cricket-stats{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:700px){.nav{align-items:flex-start}.navlinks{gap:4px}.navlinks a{font-size:.72rem;padding:7px 9px}.hero{padding-top:45px}.hero h1{font-size:clamp(4rem,20vw,7rem)}.comic-strip,.fun-grid,.schedule-grid,.sports-grid,.matches,.contact-grid{grid-template-columns:1fr}.qr-grid{grid-template-columns:1fr}.cricket-title{font-size:4.6rem}.cursor{display:none}.section{padding:60px 0}}
+@media(max-width:700px){
+  /* Mobile navigation: keep the title bar compact and let links scroll sideways */
+  .nav{align-items:stretch;flex-direction:column;gap:9px;padding:10px 12px}
+  .brand{align-self:center;font-size:1.05rem}
+  .navlinks{width:100%;display:flex;flex-wrap:nowrap;justify-content:flex-start;gap:7px;overflow-x:auto;overflow-y:hidden;padding:2px 2px 7px;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;scrollbar-width:none;touch-action:pan-x}
+  .navlinks::-webkit-scrollbar{display:none}
+  .navlinks a{flex:0 0 auto;white-space:nowrap;scroll-snap-align:start;font-size:.72rem;padding:8px 11px}
+  .hero{padding-top:45px}.hero h1{font-size:clamp(4rem,20vw,7rem)}.comic-strip,.fun-grid,.schedule-grid,.sports-grid,.matches,.contact-grid{grid-template-columns:1fr}.qr-grid{grid-template-columns:1fr}.cricket-title{font-size:4.6rem}.cursor{display:none}.section{padding:60px 0}
+}
